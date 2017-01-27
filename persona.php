@@ -64,10 +64,10 @@ public static function LeerPersonas($codigo, $anio)
 		$consulta->execute();			
 		$array= $consulta->fetchAll(PDO::FETCH_CLASS, "persona");	
 
-		$tabla= "<table class='table table-hover table-responsive'>
+		$tabla= "<table class='table table-striped table-bordered'>
 				<thead>
 					<tr>
-						<th>  Numero   </th>
+						<th>  Numero  OOO </th>
 						<th>  Empresa   </th>
 						<th>  Fecha Liquidacion   </th>	
 						<th>  Monto Liquidacion  </th>
